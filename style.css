@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container{
+    background-color: #3C552D;
+    border: 5px solid #ABBA7C;
+    border-radius: 15px;  
+    padding: 100px;
+    
+}
+
+
+#Input{
+    width: 284px;
+    height: 25px;
+    border: 2px solid #ABBA7C;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+h2{
+    text-align: center;
+    color: #a9c957;
+}
+
+#btnadd button{
+
+    width: 287px;
+    height: 25px;
+    border: 2px solid #ABBA7C;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-right: 4px;
+    
+}
+
+
+#btnadd button:hover {
+    background-color: #DCE775; 
+}
+
+#btnadd button:active {
+    background-color: #C0CA33; 
+}
+
+
+
+
+
+.btnEdit{
+    background-color: #ffffff;
+    
+    height: 25px;
+    width: 80px;
+   border: 2px solid #ABBA7C;
+   border-radius: 5px;
+    
+}
+
+
+
+.btnDelete{
+    background-color: #ffffff;
+    margin-left: 180px;
+    height: 25px;
+    width: 80px;
+   border: 2px solid #ABBA7C;
+   border-radius: 5px;
+    
+}
+
+
+
+.btnDelete:hover {
+    background-color: #DCE775; 
+}
+
+.btnDelete:active {
+    background-color: #C0CA33; 
+}
